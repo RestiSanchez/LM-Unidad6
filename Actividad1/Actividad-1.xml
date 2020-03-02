@@ -1,0 +1,136 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--Ejercicio 2-->
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE etiquetas [
+    <!ELEMENT etiqueta (nombre , calle , ciudad , pais , codigo) >
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT calle (#PCDATA)>
+    <!ELEMENT ciudad (#PCDATA)>
+    <!ELEMENT pais (#PCDATA)>
+    <!ELEMENT codigo (#PCDATA)>
+    <!ELEMENT matriculado EMPTY>
+]>
+<etiqueta>
+    <nombre>Roberto García</nombre>
+    <calle>c/ Mayor, 27</calle>
+    <ciudad>Coslada</ciudad>
+    <pais>España</pais>
+    <codigo>39343</codigo>
+    <matriculado/>
+</etiqueta>
+
+<!-- Ejercicio 3 -->
+
+
+<!--DTD interno-->
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE automovil [
+    <!ELEMENT automovil (datos , especificaciones)
+    <!ELEMENT datos (marca , modelo , anyo)>
+    <!ELEMENT marca (#PCDATA)>
+    <!ELEMENT modelo (#PCDATA)>
+    <!ELEMENT anyo (#PCDATA)>
+    <!ELEMENT especificaciones ( longitud , traccion-delantera , motor)>
+    <!ELEMENT longitud (#PCDATA)>
+    <!ELEMENT traccion-delantera (#PCDATA)>
+    <!ELEMENT motor (cilindros , cc, cv)>
+
+]>
+<automovil>
+    <datos>
+        <marca>Volkswagen</marca>
+        <modelo>Corrado</marca>
+        <anyo>1989</anyo>
+    </datos>
+    <especificaciones>
+        <longitud>4,05</longitud>
+        <traccion-delantera/>
+        <motor>
+            <cilindros>6</cilindros>
+            <cc>3000</cc>
+            <cv>190</cv>
+        </motor>
+    </especificaciones>
+</automovil>
+
+<!--DTD externo-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE automovil SYSTEM "ejercicio3.dtd">
+<automovil>
+    <datos>
+        <marca>Volkswagen</marca>
+        <modelo>Corrado</marca>
+        <anyo>1989</anyo>
+    </datos>
+    <especificaciones>
+        <longitud>4,05</longitud>
+        <traccion-delantera/>
+        <motor>
+            <cilindros>6</cilindros>
+            <cc>3000</cc>
+            <cv>190</cv>
+        </motor>
+    </especificaciones>
+</automovil>

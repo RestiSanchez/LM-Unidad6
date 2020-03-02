@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <!ENTITY disco SYSTEM "actividad2_1.dtd">
+    
+    <discos>
+        <disco>
+            <artista>Wade</artista>
+            <album> Hannah Wants ‎– Fabriclive 89</album>
+        <disco>
+    <discos>
