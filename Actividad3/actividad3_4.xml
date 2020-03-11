@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE coleccion SYSTEM "actividad3_4.dtd">
+<coleccion>
+    <peliculas>
+    <pelicula id="p01">El Cabo del miedo</pelicula>
+    <pelicula id="p02">Casino</pelicula>
+    <pelicula id="p03">Infiltrados</pelicula>
+    <pelicula id="p04">El Lobo de Wall-Street</pelicula>
+    <pelicula id="p05">Lo imposible</pelicula>
+    <pelicula id="p06">Avengers: Infinity War</pelicula>
+    </peliculas>
+    <actores>
+    <actor peliculas="p01 p02">Leonardo DiCaprio</actor>
+    <actor peliculas="p03 p04">Robert de Niro</actor>
+    <actor peliculas="p05 p06">Tom Holland</actor>
+    </actores>
+    </coleccion>

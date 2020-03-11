@@ -1,0 +1,7 @@
+<!ELEMENT coleccion (peliculas, actores)>
+<!ELEMENT peliculas (pelicula*)>
+<!ATTLIST pelicula id ID #REQUIRED>
+<!ELEMENT pelicula (#PCDATA)>
+<!ELEMENT actores (actor*)>
+<!ATTLIST actor peliculas ( p01 | p02 | p03 | p04 | p05 | p06 ) #REQUIRED>
+<!ELEMENT actor (#PCDATA)>

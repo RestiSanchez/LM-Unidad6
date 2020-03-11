@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE correo [
+   <!ELEMENT correo (remitente,destinatario,asunto,mensaje)>
+   <!ELEMENT remitente (#PCDATA)>
+   <!ELEMENT destinatario (#PCDATA)>
+   <!ELEMENT asunto (#PCDATA)>
+   <!ELEMENT mensaje (#PCDATA)>
+]>
+ <correo>
+ <remitente>restisanchez99@gmail.com</remitente>
+ <destinatario>pabloprofetic@gmail.com</destinatario>
+ <asunto>Practicas LM</asunto>
+ <mensaje>Practicas de LM de los temas 5 , 6 y 7</mensaje>
+ </correo>

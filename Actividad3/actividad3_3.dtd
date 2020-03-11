@@ -1,0 +1,12 @@
+<!ELEMENT empresa (departamentos*, empleados*)>
+<!ELEMENT departamentos (departamento*)>
+<!ATTLIST departamento id (dpto-1 | dpto-2) #REQUIRED>
+<!ATTLIST departamento ubicacion (planta-0 | planta-1)>
+<!ELEMENT departamento (nombre*)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT empleados (empleado*)>
+<!ATTLIST empleado id ID>
+<!ATTLIST empleado id-departamento CDATA #IMPLIED>
+<!ELEMENT empleado (nombre*)>
+<!ELEMENT nombre (#PCDATA)>
+
